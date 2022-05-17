@@ -9,7 +9,7 @@ Install crypto cli with npm
 
 ```bash
 # Install the package
-$ npm install crypto
+$ npm i math-crypto-cli
 
 # If you are running locally, type this
 $ npm install
