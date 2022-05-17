@@ -1,7 +1,7 @@
 
 # Crypto CLI 💸
 
-A command line interface to monitor Command line interface to monitor cryptocurrency
+A command line interface to monitor to monitor cryptocurrency
 
 ## Installation 🚀
 
