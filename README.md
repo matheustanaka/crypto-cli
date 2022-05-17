@@ -3,13 +3,16 @@
 
 A command line interface to monitor Command line interface to monitor cryptocurrency
 
-
 ## Installation 🚀
 
 Install crypto cli with npm
 
 ```bash
-  npm install crypto
+# Install the package
+$ npm install crypto
+
+# If you are running locally, type this
+$ npm install
 ```
     
 ## Usage/Examples 💪
@@ -26,6 +29,18 @@ $ crypto --bitcoin
 $ crypto --ethereum
 ```
 
+Or, you can  try to run it locally
+
+```bash
+# Return The largest Crypto Coin Price in the last 24 Hours
+$ node crypto.mjs crypto --price 
+
+# Return Bitcoin Avarage Price in the last 24 Hours
+$ node crypto.mjs crypto --bitcoin
+
+# Return Ethereum Avarage Price in the last 24 Hours
+$ node crypto.mjs crypto --ethereum
+```
 
 ## Tech Stack 💻
 
