@@ -1,6 +1,6 @@
 {
   "name": "crypto-status-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line interface to monitor cryptocurrency",
   "main": "index.js",
   "dependencies": {
