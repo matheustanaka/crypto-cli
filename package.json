@@ -1,19 +1,48 @@
 {
-  "name": "math-crypto-cli",
-  "version": "1.0.1",
-  "description": "Crypto CLI to monitor cryptocurrency price",
+  "name": "crypto-cli",
+  "version": "1.0.0",
+  "description": "A command line interface to monitor Command line interface to monitor cryptocurrency",
   "main": "index.js",
+  "dependencies": {
+    "ansi-regex": "^5.0.1",
+    "cliui": "^7.0.4",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "escalade": "^3.1.1",
+    "emoji-regex": "^8.0.0",
+    "data-uri-to-buffer": "^4.0.0",
+    "formdata-polyfill": "^4.0.10",
+    "fetch-blob": "^3.1.5",
+    "get-caller-file": "^2.0.5",
+    "is-fullwidth-code-point": "^3.0.0",
+    "node-domexception": "^1.0.0",
+    "node-fetch": "^3.2.4",
+    "strip-ansi": "^6.0.1",
+    "string-width": "^4.2.3",
+    "wrap-ansi": "^7.0.0",
+    "require-directory": "^2.1.1",
+    "y18n": "^5.0.8",
+    "web-streams-polyfill": "^3.2.1",
+    "yargs": "^17.5.1",
+    "yargs-parser": "^21.0.1",
+    "ansi-styles": "^4.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "crypto": "./cryto.mjs"
+    "crypto-status": "./crypto.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheustanaka/crypto-cli.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-fetch": "^3.2.4",
-    "yargs": "^17.5.1"
-  }
+  "bugs": {
+    "url": "https://github.com/matheustanaka/crypto-cli/issues"
+  },
+  "homepage": "https://github.com/matheustanaka/crypto-cli#readme"
 }
