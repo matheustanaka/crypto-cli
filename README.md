@@ -22,10 +22,10 @@ After installed the CLI, you can run the commands below:
 # Return The largest Crypto Coin Price in the last 24 Hours
 $ crypto-status --price 
 
-# Return Bitcoin Avarage Price in the last 24 Hours
+# Return Bitcoin Average Price in the last 24 Hours
 $ crypto-status --bitcoin
 
-# Return Ethereum Avarage Price in the last 24 Hours
+# Return Ethereum Average Price in the last 24 Hours
 $ crypto-status --ethereum
 ```
 
@@ -35,10 +35,10 @@ Or, you can  try to run it locally
 # Return The largest Crypto Coin Price in the last 24 Hours
 $ node crypto.mjs crypto-status --price 
 
-# Return Bitcoin Avarage Price in the last 24 Hours
+# Return Bitcoin Average Price in the last 24 Hours
 $ node crypto.mjs crypto-status --bitcoin
 
-# Return Ethereum Avarage Price in the last 24 Hours
+# Return Ethereum Average Price in the last 24 Hours
 $ node crypto.mjs crypto-status --ethereum
 ```
 
