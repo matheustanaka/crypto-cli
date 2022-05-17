@@ -1,6 +1,6 @@
 {
   "name": "math-crypto-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crypto CLI to monitor cryptocurrency price",
   "main": "index.js",
   "scripts": {
