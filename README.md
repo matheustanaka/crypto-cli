@@ -20,26 +20,26 @@ After installed the CLI, you can run the commands below:
 
 ```bash
 # Return The largest Crypto Coin Price in the last 24 Hours
-$ crypto --price 
+$ crypto-status --price 
 
 # Return Bitcoin Avarage Price in the last 24 Hours
-$ crypto --bitcoin
+$ crypto-status --bitcoin
 
 # Return Ethereum Avarage Price in the last 24 Hours
-$ crypto --ethereum
+$ crypto-status --ethereum
 ```
 
 Or, you can  try to run it locally
 
 ```bash
 # Return The largest Crypto Coin Price in the last 24 Hours
-$ node crypto.mjs crypto --price 
+$ node crypto.mjs crypto-status --price 
 
 # Return Bitcoin Avarage Price in the last 24 Hours
-$ node crypto.mjs crypto --bitcoin
+$ node crypto.mjs crypto-status --bitcoin
 
 # Return Ethereum Avarage Price in the last 24 Hours
-$ node crypto.mjs crypto --ethereum
+$ node crypto.mjs crypto-status --ethereum
 ```
 
 ## Tech Stack 💻
