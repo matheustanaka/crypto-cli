@@ -2,12 +2,12 @@
   "name": "math-crypto-cli",
   "version": "1.0.1",
   "description": "Crypto CLI to monitor cryptocurrency price",
-  "main": "crypto.mjs",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "crypto": "./crypto.mjs"
+    "crypto": "./cryto.mjs"
   },
   "keywords": [],
   "author": "",
