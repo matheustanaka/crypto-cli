@@ -9,7 +9,7 @@ Install crypto cli with npm
 
 ```bash
 # Install the package
-$ npm i crypto-status-cli -g
+$ npm i crypto-status-cli 
 
 # If you are running locally, type this
 $ npm install
