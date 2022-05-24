@@ -27,6 +27,9 @@ $ crypto-status --bitcoin
 
 # Return Ethereum Average Price in the last 24 Hours
 $ crypto-status --ethereum
+
+# If you want to run multiple commands, it's possible.
+$ crypto-status --price --bitcoin --ethereum
 ```
 
 Or, you can  try to run it locally
